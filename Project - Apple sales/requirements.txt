@@ -1,0 +1,81 @@
+pip install pandas sqlalchemy psycopg2-binary
+
+pip install kaggle
+kaggle datasets download -d amangarg08/apple-retail-sales-dataset --unzip -p ./data
+
+psql -U postgres -c "CREATE DATABASE apple_sales_db;"
+
+
+import pandas as pd
+import os
+from sqlalchemy import create_engine
+
+# 1. Database Credentials
+host = 'localhost'
+port = '5432'
+database = 'apple_sales_db'
+user = 'postgres'
+password = '1234'
+
+# 2. Create Connection 
+engine = create_engine(f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}")
+
+# Test Connection
+try:
+    with engine.connect() as conn:
+        print("✓ Connection successful!")
+except Exception as e:
+    print(f"✗ Connection failed: {e}")
+    exit()
+
+# 3. File Mapping & Setup 
+# Dictionary: {'filename.csv': 'table_name'}
+files_map = {
+    'category.csv': 'category',
+    'products.csv': 'products',
+    'stores.csv': 'stores',
+    'warranty.csv': 'warranty',
+    'sales.csv': 'sales'
+}
+
+data_folder = './data'
+
+#  4. Upload Process 
+print("Starting upload process...")
+
+for file, table in files_map.items():
+    file_path = os.path.join(data_folder, file)
+    
+    if os.path.exists(file_path):
+        try:
+            print(f"Processing {file}...")
+            df = pd.read_csv(file_path)
+            
+            # Standardize column names
+            df.columns = [c.lower() for c in df.columns]
+            
+            # Upload with chunksize (Safety for large files)
+            df.to_sql(name=table, con=engine, if_exists='replace', index=False, chunksize=10000)
+            print(f"{table} uploaded.")
+            
+        except Exception as e:
+            print(f"Error uploading {file}: {e}")
+    else:
+        print(f"File not found: {file_path}")
+
+print("All operations completed.")
+
+# inside postgresql write this to verify the tables and their columns
+
+SELECT 
+    table_name, 
+    column_name, 
+    data_type 
+FROM 
+    information_schema.columns 
+WHERE 
+    table_schema = 'public'
+ORDER BY 
+    table_name;
+
+

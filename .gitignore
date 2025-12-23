@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv1/
+.env
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Data files (excluded because datasets are large)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.json
+*.parquet
+*.feather
+*.zip
+*.gz
+
+# Common data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Logs and runtime
+logs/
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+
+# Notebook outputs and checkpoints
+*.nbconvert.ipynb
+
+# Notebook / environment artifacts
+.ipynb_checkpoints/
+kernel-*.json
+
+# OS generated files
+ehthumbs.db
+
+# Additional
+*.sqlite3
+*.db
+
+# Keep this file tracked
+!/.gitignore

@@ -6,7 +6,7 @@ I am a data analyst passionate about uncovering actionable insights from data to
 ## Skills
 - POSTGRESQL, SQL
 - Python (pandas, NumPy, matplotlib, seaborn,skit-learn)
-- Excel (advanced formulas, pivot tables)
+- Excel/Google Sheets (advanced formulas, pivot tables)
 - Power BI
 - Tableau
 - Data Cleaning & ETL

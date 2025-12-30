@@ -25,3 +25,12 @@ Primary dataset: `BlinkIT Grocery Data.csv` (order-level and product-level field
 
 ## Notes
 - Recommended next steps: create forecasting models for demand, optimize delivery zones, and A/B test promotions by category.
+##   Using Excel
+<img width="2177" height="1280" alt="Screenshot 2025-12-30 050346" src="https://github.com/user-attachments/assets/a6aeb5e7-9bf4-4f8a-a7ec-dbeda9aaf846" />
+<img width="1690" height="1241" alt="Screenshot 2025-12-30 050413" src="https://github.com/user-attachments/assets/4e5e1a0e-aba4-41bf-87c8-96a8dd06de8e" />
+
+## using python
+
+<img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/27ed8ee8-5504-4ad3-a315-9460769ac59e" />
+
+

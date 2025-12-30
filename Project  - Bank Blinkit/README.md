@@ -36,7 +36,8 @@ Primary dataset: `BlinkIT Grocery Data.csv` (order-level and product-level field
 <img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/2446b744-f3f5-48bb-b980-dcb96e1745a6" />
 <img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/7f455223-9e0d-461e-baf9-078e796e7b05" />
 <img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/455cfbf6-9e09-40bd-95c7-64a90016d823" />
-<img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/158655d2-1780-4d1a-97bb-43b1df05f68e" />
+<img width="708" height="316" alt="image" src="https://github.com/user-attachments/assets/073472f4-a147-476a-b587-3a218bf7e24f" />
+
 
 ## Using PowerBI
 

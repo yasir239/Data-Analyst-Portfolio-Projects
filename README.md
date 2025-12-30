@@ -20,5 +20,5 @@ I am a data analyst passionate about uncovering actionable insights from data to
 - [Student Dashboard](Project - Student Dashboard/README.md) — Student performance tracking, attendance monitoring, and academic progress analysis using Google Sheets and Excel. [Google Sheets, Excel]
 
 ## Contact
-- LinkedIn: [[your-linkedin-here](https://www.linkedin.com/in/yasir-alobaid-5346682b9/)]
+- LinkedIn: [[YasirAlobiad](https://www.linkedin.com/in/yasir-alobaid-5346682b9/)]
 - Email: yasiralobaid@outlook.com

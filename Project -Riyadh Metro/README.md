@@ -1,13 +1,16 @@
 # Riyadh Commercial Density and Metro Impact Analysis
-## Project Overview
-This project implements an end-to-end Data Engineering (ETL) pipeline to analyze the commercial landscape of Riyadh, Saudi Arabia. The primary objective is to evaluate the correlation between the Riyadh Metro network and commercial service density across different districts.
-The system automates the extraction of geospatial data using Python, transforms it into a structured format, loads it into a PostgreSQL data warehouse, and visualizes key economic insights through an interactive Power BI dashboard.
 
 ## Analysis using python 
 <img width="2156" height="1225" alt="Screenshot 2026-01-04 030927" src="https://github.com/user-attachments/assets/118c1d1d-6b47-417d-ae83-c42f5c82f7aa" />
 
 ## Anlaysis using PowerBi
 <img width="1403" height="791" alt="Screenshot 2026-01-04 022624" src="https://github.com/user-attachments/assets/a9464ead-2966-432f-a109-442de427105a" />
+
+## Project Overview
+This project implements an end-to-end Data Engineering (ETL) pipeline to analyze the commercial landscape of Riyadh, Saudi Arabia. The primary objective is to evaluate the correlation between the Riyadh Metro network and commercial service density across different districts.
+The system automates the extraction of geospatial data using Python, transforms it into a structured format, loads it into a PostgreSQL data warehouse, and visualizes key economic insights through an interactive Power BI dashboard.
+
+
 ## System Architecture
 The project follows a standard ETL workflow:
 

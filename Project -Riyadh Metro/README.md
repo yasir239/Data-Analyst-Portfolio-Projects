@@ -1,9 +1,9 @@
 # Riyadh Commercial Density and Metro Impact Analysis
 
-## Analysis using python 
+## Analysis using Python 
 <img width="2156" height="1225" alt="Screenshot 2026-01-04 030927" src="https://github.com/user-attachments/assets/118c1d1d-6b47-417d-ae83-c42f5c82f7aa" />
 
-## Anlaysis using PowerBi
+## Anlaysis using PowerBI
 <img width="1403" height="791" alt="Screenshot 2026-01-04 022624" src="https://github.com/user-attachments/assets/a9464ead-2966-432f-a109-442de427105a" />
 
 ## Project Overview

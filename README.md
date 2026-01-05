@@ -20,6 +20,8 @@ I am a data analyst passionate about uncovering actionable insights from data to
 - [Bank Loans Analysis](Project - Bank Loans Analysis First Portfolio Project/README.md) — Risk analysis of loan defaults, loan approval rates, and indicators of high-risk borrowers.  [PowerBI,Excel]
   
 - [Walmart Sales](Project - Walmart sales/README.md) — Retail sales forecasting, store performance comparison, and seasonal trend analysis.  [Python,PostgreSQL]
+- 
+-  [Student Dashboard] (Project - Student Dashboard/README.md) — Student performance tracking, attendance monitoring, and academic progress analysis using Google Sheets and Excel. [Google Sheets, Excel]
   
 - [Riyadh Metro Impact Analysis](Project - Riyadh Metro Impact Analysis/README.md) — Metro network impact on commercial districts and data insights. [Python, Pandas, API, PowerBI, PostgreSQL]
   

@@ -3,28 +3,29 @@
 ## Introduction
 I am a data analyst passionate about uncovering actionable insights from data to inform business decisions. I specialize in translating complex datasets into clear stories, building dashboards, and delivering measurable impact through analytics.
 
-## Skills
-- POSTGRESQL, SQL
-- Python (pandas, NumPy, matplotlib, seaborn,skit-learn)
-- Excel/Google Sheets (advanced formulas, pivot tables)
-- Power BI
-- Tableau
-- Data Cleaning & ETL
-- Statistical Analysis & Forecasting
+## Skills & Expertise
+Databases: PostgreSQL, SQL
 
-## Projects Overview
-- [Bank Blinkit](Project  - Bank Blinkit/README.md) — Grocery delivery analysis and sales performance dashboards highlighting order patterns and operational KPIs.  [Python,PostgreSQL,PowerBI,Excel]
-  
-- [Apple Sales](Project - Apple sales/README.md) — Product-level sales trends and regional performance with year-over-year growth analysis.  [Python,PostgreSQL]
-  
-- [Bank Loans Analysis](Project - Bank Loans Analysis First Portfolio Project/README.md) — Risk analysis of loan defaults, loan approval rates, and indicators of high-risk borrowers.  [PowerBI,Excel]
-  
-- [Walmart Sales](Project - Walmart sales/README.md) — Retail sales forecasting, store performance comparison, and seasonal trend analysis.  [Python,PostgreSQL]
-  
--  [Student Dashboard] (Project - Student Dashboard/README.md) — Student performance tracking, attendance monitoring, and academic progress analysis using Google Sheets and Excel. [Google Sheets, Excel]
-  
-- [Riyadh Metro Impact Analysis](Project - Riyadh Metro Impact Analysis/README.md) — Metro network impact on commercial districts and data insights. [Python, Pandas, API, PowerBI, PostgreSQL]
-  
+Data Science: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+
+Visualization: Power BI, Tableau
+
+Analysis Tools: Excel (Advanced), Google Sheets, ETL Processes
+
+Other: Statistical Analysis, Forecasting
+
+##  Key Projects
+🚀 [Riyadh Metro Impact](Project - Riyadh Metro Impact Analysis) — Python, API, PostgreSQL,PowerBI
+
+🛒 [Bank Blinkit](Project - Bank Blinkit) — Python, Power BI, SQL,Excel
+
+🍎 [Apple Sales](Project - Apple sales) — Python, PostgreSQL
+
+💰 [Bank Loans Risk](Project - Bank Loans Analysis First Portfolio Project) — Power BI, Excel
+
+🏪 [Walmart Sales](Project - Walmart sales) — Python, PostgreSQL
+
+🎓 [Student Dashboard](Project - Student Dashboard) — Google Sheets, Excel
 
 ## Contact
 - LinkedIn: [[YasirAlobiad](https://www.linkedin.com/in/yasir-alobaid-5346682b9/)]
